@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>1ra Entrega proyecto final - Coderhouse</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/estilos.css">
+</head>
+
+<body>
+    <!-- Titulo -->
+    <h1 class="titulo">Bienvenidos a Hardware Place <i class="fas fa-desktop"></i> </h1>
+    <!-- Cards Productos -->
+    <h2 class="subtitulo">Productos</h2>
+    <div class="cards">
+        <!-- Card 1 -->
+        <div class="card" style="width: 18rem;">
+            <img src="./img/monitorGigabyte.webp" class="card-img-top" alt="Monitor Gigabyte">
+            <div class="card-body">
+                <h5 class="card-title">Monitor Gigabyte</h5>
+                <p class="card-text">Gigabyte Aorus 240Hz 0.5ms</p>
+                <button onclick="comprar1()">Comprar</button>
+                <button onclick="detalles1()">Detalles producto</button>
+            </div>
+        </div>
+        <!-- Card 2 -->
+        <div class="card" style="width: 18rem;">
+            <img src="./img/monitorLG.webp" class="card-img-top" alt="Monitor LG">
+            <div class="card-body">
+                <h5 class="card-title">Monitor LG</h5>
+                <p class="card-text">Monitor LG 144Hz 1ms</p>
+                <button onclick="comprar2()">Comprar</button>
+                <button onclick="detalles2()">Detalles producto</button>
+            </div>
+        </div>
+        <!-- Card 3 -->
+        <div class="card" style="width: 18rem;">
+            <img src="./img/monitorSamsung.webp" class="card-img-top" alt="Monitor Samsung">
+            <div class="card-body">
+                <h5 class="card-title">Monitor Samsung</h5>
+                <p class="card-text">Monitor Samsung 60Hz 5ms</p>
+                <button onclick="comprar3()">Comprar</button>
+                <button onclick="detalles3()">Detalles producto</button>
+            </div>
+        </div>
+    </div>
+    <div class="cards">
+        <!-- Card 4 -->
+        <div class="card" style="width: 18rem;">
+            <img src="./img/graficaGigabyte.webp" class="card-img-top" alt="Monitor Gigabyte">
+            <div class="card-body">
+                <h5 class="card-title">Placa de video Gigabyte</h5>
+                <p class="card-text">Gigabyte RTX 3070 8Gb</p>
+                <button onclick="comprar4()">Comprar</button>
+                <button onclick="detalles4()">Detalles producto</button>
+            </div>
+        </div>
+        <!-- Card 5 -->
+        <div class="card" style="width: 18rem;">
+            <img src="./img/graficaMSI.webp" class="card-img-top" alt="Monitor LG">
+            <div class="card-body">
+                <h5 class="card-title">Placa de video MSI</h5>
+                <p class="card-text">MSI RTX 3070 10Gb</p>
+                <button onclick="comprar5()">Comprar</button>
+                <button onclick="detalles5()">Detalles producto</button>
+            </div>
+        </div>
+        <!-- Card 6 -->
+        <div class="card" style="width: 18rem;">
+            <img src="./img/graficaEVGA.webp" class="card-img-top" alt="Monitor Samsung">
+            <div class="card-body">
+                <h5 class="card-title">Placa de video EVGA</h5>
+                <p class="card-text">EVGA RTX 3090 24Gb 5ms</p>
+                <button onclick="comprar6()">Comprar</button>
+                <button onclick="detalles6()">Detalles producto</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="./Class/monitor.js"></script>
+    <script src="./Class/grafica.js"></script>
+    <script src="./Class/teclados.js"></script>
+    <script src="./funciones/respuesta.js"></script>
+    <script src="./funciones/comprar.js"></script>
+    <script src="./funciones/detalles.js"></script>
+    <script src="./index.js"></script>
+    <script src="https://kit.fontawesome.com/725aa0b04b.js" crossorigin="anonymous"></script>
+</body>
+
+</html>

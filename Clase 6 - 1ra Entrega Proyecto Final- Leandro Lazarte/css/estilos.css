@@ -1,0 +1,17 @@
+#titulo {
+    text-align: center;
+    text-decoration: underline;
+    color: red;
+}
+
+#sub-titulo {
+    text-align: center;
+    color: tomato;
+    text-decoration: underline;
+}
+
+#item-producto {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border: 1px solid;
+}

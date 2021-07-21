@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>1ra Entrega proyecto final - Coderhouse</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/estilos.css">
+</head>
+
+<body>
+    <!-- Titulo -->
+    <h1 class="titulo">Bienvenidos a Hardware Place <i class="fas fa-desktop"></i> </h1>
+    <h2 class="subtitulo">Productos</h2>
+    <!-- Cards Productos -->
+    <div class="cards">
+        <!-- Card 1 -->
+        <div class="card" style="width: 18rem;">
+            <img src="./img/monitorGigabyte.webp" class="card-img-top" alt="Monitor Gigabyte">
+            <div class="card-body">
+                <h5 class="card-title">Monitor Gigabyte</h5>
+                <p class="card-text">Gigabyte Aorus 240Hz 0.5ms</p>
+                <p class="card-text">$117.850</p>
+            </div>
+        </div>
+        <!-- Card 2 -->
+        <div class="card" style="width: 18rem;">
+            <img src="./img/monitorLG.webp" class="card-img-top" alt="Monitor LG">
+            <div class="card-body">
+                <h5 class="card-title">Monitor LG</h5>
+                <p class="card-text">Monitor LG 144Hz 1ms</p>
+                <p class="card-text">$85.290</p>
+            </div>
+        </div>
+        <!-- Card 3 -->
+        <div class="card" style="width: 18rem;">
+            <img src="./img/monitorSamsung.webp" class="card-img-top" alt="Monitor Samsung">
+            <div class="card-body">
+                <h5 class="card-title">Monitor Samsung</h5>
+                <p class="card-text">Monitor Samsung 60Hz 5ms</p>
+                <p class="card-text">$28.900</p>
+            </div>
+        </div>
+    </div>
+    <div class="cards">
+        <!-- Card 4 -->
+        <div class="card" style="width: 18rem;">
+            <img src="./img/graficaGigabyte.webp" class="card-img-top" alt="Monitor Gigabyte">
+            <div class="card-body">
+                <h5 class="card-title">Placa de video Gigabyte</h5>
+                <p class="card-text">Gigabyte RTX 3070 8Gb</p>
+                <p class="card-text">$190.890</p>
+            </div>
+        </div>
+        <!-- Card 5 -->
+        <div class="card" style="width: 18rem;">
+            <img src="./img/graficaMSI.webp" class="card-img-top" alt="Monitor LG">
+            <div class="card-body">
+                <h5 class="card-title">Placa de video MSI</h5>
+                <p class="card-text">MSI RTX 3070 10Gb</p>
+                <p class="card-text">$250.000</p>
+            </div>
+        </div>
+        <!-- Card 6 -->
+        <div class="card" style="width: 18rem;">
+            <img src="./img/graficaEVGA.webp" class="card-img-top" alt="Monitor Samsung">
+            <div class="card-body">
+                <h5 class="card-title">Placa de video EVGA</h5>
+                <p class="card-text">EVGA RTX 3090 24Gb 5ms</p>
+                <p class="card-text">$320.900</p>
+            </div>
+        </div>
+    </div>
+    <div class="cards">
+        <!-- Card 7 -->
+        <div class="card" style="width: 18rem;">
+            <img src="./img/tecladoLogitech.webp" class="card-img-top" alt="Monitor Samsung">
+            <div class="card-body">
+                <h5 class="card-title">Teclado Logitech</h5>
+                <p class="card-text">Logitech Series G</p>
+                <p class="card-text">$19.999</p>
+            </div>
+        </div>
+        <!-- Card 8 -->
+        <div class="card" style="width: 18rem;">
+            <img src="./img/tecladoHyper.webp" class="card-img-top" alt="Monitor Samsung">
+            <div class="card-body">
+                <h5 class="card-title">Teclado Hyper X</h5>
+                <p class="card-text">Hyper X Alloy FPS</p>
+                <p class="card-text">$8.999</p>
+            </div>
+        </div>
+        <!-- Card 9 -->
+        <div class="card" style="width: 18rem;">
+            <img src="./img/tecladoApple.webp" class="card-img-top" alt="Monitor Samsung">
+            <div class="card-body">
+                <h5 class="card-title">Teclado Apple</h5>
+                <p class="card-text">Apple A1314 QWERTY</p>
+                <p class="card-text">$12.799</p>
+            </div>
+        </div>
+    </div>
+    <!-- Formulario de ingreso de datos -->
+    <form class="formulario" action="" id="form">
+        <label for="">Detalles del Cliente</label>
+        <input type="text" id="pNombre" name="pNombre" placeholder="Ingrese su nombre" class="form-control">
+        <input type="text" id="pApellido" name="pApellido" placeholder="Ingrese su apellido" class="form-control">
+        <input type="text" id="pEmail" name="pEmail" placeholder="Ingrese su correo electronico" class="form-control">
+        <input type="text" id="pProvincia" name="pProvincia" placeholder="Provincia donde reside" class="form-control">
+        <input type="text" id="pCiudad" name="pCiudad" placeholder="Ciudad donde reside" class="form-control">
+        <input type="text" id="pDireccion" name="pDireccion" placeholder="Dirección donde se enviara su producto/s" class="form-control">
+        <label for="">Detalle del Producto</label>
+        <input type="text" id="pCategoria" name="pCategoria" placeholder="Ingrese categoria del producto" class="form-control">
+        <input type="text" id="pMarca" name="pMarca" placeholder="Ingrese marca del producto" class="form-control">
+        <input type="submit" value="Añadir al carrito" class="btn btn-success">
+        <br>
+        <button id="boton1" class="btn btn-success" type="reset">Confirmar Pedido</button>
+        <span id="formError "></span><br>
+    </form>
+    <div id="divCarrito "></div>
+
+    <script src="./index.js "></script>
+    <script src="https://kit.fontawesome.com/725aa0b04b.js " crossorigin="anonymous "></script>
+</body>
+
+</html>
